@@ -5,12 +5,10 @@ Toast for iOS
 [![CocoaPods Version](https://img.shields.io/cocoapods/v/Toast.svg)](http://cocoadocs.org/docsets/Toast)
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
-Toast is an Objective-C category that adds toast notifications to the `UIView` object class. It is
-intended to be simple, lightweight, and easy to use. Most toast notifications can be triggered with
-a single line of code.
+Toast is an Objective-C category that adds toast notifications to the `UIView` object class. It is intended to be simple, lightweight, and easy to use. Most
+ toast notifications can be triggered with a single line of code.
 
-**Using Swift? A native swift port of this library is now
-available: [Toast-Swift](https://github.com/scalessec/Toast-Swift "Toast-Swift")**
+**Using Swift? A native swift port of this library is now available: [Toast-Swift](https://github.com/scalessec/Toast-Swift "Toast-Swift")**
 
 Screenshots
 ---------
@@ -19,7 +17,6 @@ Screenshots
 
 Basic Examples
 ---------
-
 ```objc
 // basic usage
 [self.view makeToast:@"This is a piece of toast."];
@@ -53,7 +50,6 @@ Basic Examples
 
 But wait, there's more!
 ---------
-
 ```objc
 // create a new style
 CSToastStyle *style = [[CSToastStyle alloc] initWithDefaultStyle];
@@ -80,7 +76,7 @@ style.messageColor = [UIColor orangeColor];
 // immediately hides all toast views in self.view
 [self.view hideAllToasts];
 ```
-
+    
 See the demo project for more examples.
 
 Setup Instructions
@@ -90,7 +86,6 @@ Setup Instructions
 ------------------
 
 Install with CocoaPods by adding the following to your `Podfile`:
-
 ```ruby
 pod 'Toast', '~> 4.0.0'
 ```
@@ -99,13 +94,10 @@ pod 'Toast', '~> 4.0.0'
 ------------------
 
 Install with Carthage by adding the following to your `Cartfile`:
-
 ```ogdl
 github "scalessec/Toast" ~> 4.0.0
 ```
-
-Run `carthage update` to build the framework and link against `Toast.framework`.
-Then, `#import <Toast/Toast.h>`.
+Run `carthage update` to build the framework and link against `Toast.framework`. Then, `#import <Toast/Toast.h>`.
 
 Manually
 --------
@@ -116,7 +108,6 @@ Manually
 
 MIT License
 -----------
-
     Copyright (c) 2011-2017 Charles Scalesse.
 
     Permission is hereby granted, free of charge, to any person obtaining a

@@ -20,6 +20,7 @@
   "module_map": "Classes/FlutterWebView.modulemap",
   "dependencies": {
     "Flutter": [
+
     ]
   },
   "platforms": {

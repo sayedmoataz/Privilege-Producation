@@ -19,8 +19,10 @@
   "public_header_files": "Classes/**/*.h",
   "dependencies": {
     "Flutter": [
+
     ],
     "ReachabilitySwift": [
+
     ]
   },
   "platforms": {

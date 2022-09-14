@@ -17,8 +17,10 @@
   "public_header_files": "Classes/**/*.h",
   "dependencies": {
     "Flutter": [
+
     ],
     "Toast": [
+
     ]
   },
   "pod_target_xcconfig": {
